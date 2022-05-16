@@ -1,8 +1,12 @@
+import axios from "axios";
 import MovieCard from "components/MovieCard";
 
 import Pagination from "./Pagination";
 
 function Listing() {
+
+
+   
     return (
         <>
             <Pagination />
